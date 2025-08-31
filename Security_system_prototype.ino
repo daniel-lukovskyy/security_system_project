@@ -99,19 +99,15 @@ const int PIR_pin = 25;
 const int led_pin = 4;
 
 
-
-
-
 int lights_on_counter = 0;
 int inter_counter = 0;
 
 
-
  //time
-const char* ssid = "iPhone (Leila)";
-const char* password = "12345678";
+const char* ssid = "YOUR WiFi NAME";
+const char* password = "YOUR PASSWORD";
 WiFiUDP ntpUDP; // object for UDP work
-NTPClient timeClient(ntpUDP, "pool.ntp.org", 3 * 3600, 60000); // GT+3
+NTPClient timeClient(ntpUDP, "pool.ntp.org", 3 * 3600, 60000); //  NOW IT IS GT+3, CHANGE TO YOUR TIME
 
 
 void setup() 
