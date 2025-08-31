@@ -11,3 +11,5 @@ Time management based on NTP.
 NOTICE ! : There is a function "center_text" , she works with every display, so you can be sure that there will not be troubles with displays.
 
 NOTICE ! : You will have to manually adjust the potentiometers on the sensors to get the correct scanning distance.
+
+NOTICE ! : You can also unmute get_sensprs_data in order to show sensors data on display.
